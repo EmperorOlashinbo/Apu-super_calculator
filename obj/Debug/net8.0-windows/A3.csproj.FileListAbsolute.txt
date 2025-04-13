@@ -1,0 +1,16 @@
+C:\Users\ibola\source\repos\A3\bin\Debug\net8.0-windows\A3.exe
+C:\Users\ibola\source\repos\A3\bin\Debug\net8.0-windows\A3.deps.json
+C:\Users\ibola\source\repos\A3\bin\Debug\net8.0-windows\A3.runtimeconfig.json
+C:\Users\ibola\source\repos\A3\bin\Debug\net8.0-windows\A3.dll
+C:\Users\ibola\source\repos\A3\bin\Debug\net8.0-windows\A3.pdb
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\A3.MainForm.resources
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\A3.csproj.GenerateResource.cache
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\A3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\A3.AssemblyInfoInputs.cache
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\A3.AssemblyInfo.cs
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\A3.csproj.CoreCompileInputs.cache
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\A3.dll
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\refint\A3.dll
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\A3.pdb
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\A3.genruntimeconfig.cache
+C:\Users\ibola\source\repos\A3\obj\Debug\net8.0-windows\ref\A3.dll
