@@ -25,6 +25,7 @@ C:\Users\ibola\source\repos\super_calculator\obj\Debug\net8.0-windows\super_calc
 C:\Users\ibola\source\repos\super_calculator\obj\Debug\net8.0-windows\super_calculator.AssemblyInfoInputs.cache
 C:\Users\ibola\source\repos\super_calculator\obj\Debug\net8.0-windows\super_calculator.AssemblyInfo.cs
 C:\Users\ibola\source\repos\super_calculator\obj\Debug\net8.0-windows\super_calculator.csproj.CoreCompileInputs.cache
+C:\Users\ibola\source\repos\super_calculator\obj\Debug\net8.0-windows\super_calculator.sourcelink.json
 C:\Users\ibola\source\repos\super_calculator\obj\Debug\net8.0-windows\super_calculator.dll
 C:\Users\ibola\source\repos\super_calculator\obj\Debug\net8.0-windows\refint\super_calculator.dll
 C:\Users\ibola\source\repos\super_calculator\obj\Debug\net8.0-windows\super_calculator.pdb

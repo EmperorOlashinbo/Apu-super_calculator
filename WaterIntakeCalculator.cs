@@ -8,7 +8,7 @@ namespace A3
     /// </summary>
     public class WaterIntakeCalculator
     {
-        private Person person;
+        private Person person = null!; // Use null-forgiving operator to suppress warning
         private const double ML_PER_GLASS = 240.0;  // 1 glass = 240ml
         private const double OUNCES_PER_ML = 0.033814;  // 1 ml = 0.033814 oz
 
@@ -23,8 +23,8 @@ namespace A3
         /// </summary>
         private double CalculateBaseIntake()
         {
-            double weightKg = person.Weight * 0.453592; // Convert pounds to kg
-            return weightKg * 30; // 30ml per kg
+            double weightKg = person.Weight; // Already in kg
+            return weightKg * 33; // 33ml per kg
         }
 
         /// <summary>
@@ -47,22 +47,23 @@ namespace A3
             else if (person.Height < 160)
                 intake *= 0.95; // -5%
 
-            // Gender adjustments
-            if (person.Gender.ToLower() == "male")
+            // Adjustments for Gender
+            if (person.Gender == Gender.Male)
                 intake *= 1.1; // +10%
-            else if (person.Gender.ToLower() == "female")
+            else if (person.Gender == Gender.Female)
                 intake *= 0.9; // -10%
 
-            // Activity level adjustments
-            switch (person.ActivityLevel.ToLower())
+            // Adjustments for Activity Level
+            switch (person.ActivityLevel)
             {
-                case "medium":
+                case ActivityLevel.Medium:
                     intake *= 1.2; // +20%
                     break;
-                case "high":
+                case ActivityLevel.High:
                     intake *= 1.5; // +50%
                     break;
             }
+
 
             return intake; // Return in ml
         }
